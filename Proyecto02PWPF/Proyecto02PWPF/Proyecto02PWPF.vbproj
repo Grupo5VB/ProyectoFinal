@@ -68,7 +68,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="WinCandidatoLista.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinLogUsuario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WinLogVotante.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinMenuCandidato.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -84,8 +96,17 @@
       <DependentUpon>Application.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="WinCandidatoLista.xaml.vb">
+      <DependentUpon>WinCandidatoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinLogUsuario.xaml.vb">
+      <DependentUpon>WinLogUsuario.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WinLogVotante.xaml.vb">
       <DependentUpon>WinLogVotante.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinMenuCandidato.xaml.vb">
+      <DependentUpon>WinMenuCandidato.xaml</DependentUpon>
     </Compile>
     <Compile Include="WinPapeletasVotos.xaml.vb">
       <DependentUpon>WinPapeletasVotos.xaml</DependentUpon>

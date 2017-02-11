@@ -5,9 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto02PWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Button x:Name="button" Content="VOTANTE" HorizontalAlignment="Left" Margin="42,238,0,0" VerticalAlignment="Top" Width="192" Height="39" FontWeight="Bold" FontSize="16"/>
-
+         Title="Sistema Voto Electrónico" Height="595.898" Width="764" Icon="Images/check_2.ico">
+    <Grid Background="#FFCEF0EE">
+        <Label x:Name="lblNomSis" Content="SISTEMA DE VOTO ELECTRÓNICO" HorizontalAlignment="Left" Height="75" Margin="173,66,0,0" Width="571" FontSize="30" FontWeight="ExtraBold" FontFamily="Century Gothic" VerticalAlignment="Top" HorizontalContentAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}"/>
+        <Label x:Name="label_Copy" Content="Elecciones 2017" HorizontalAlignment="Left" Height="42" Margin="176,133,0,0" VerticalAlignment="Top" Width="532" HorizontalContentAlignment="Center" FontFamily="Century Gothic" FontSize="24" FontWeight="ExtraBold" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}"/>
+        <Button x:Name="button" Content="VOTANTE" HorizontalAlignment="Left" Margin="55,457,0,0" VerticalAlignment="Top" Width="192" Height="39" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="btnCandidato" Content="CANDIDATO" HorizontalAlignment="Left" Margin="286,457,0,0" VerticalAlignment="Top" Width="192" Height="39" FontSize="16" FontWeight="Bold"/>
+        <Button x:Name="btnAdmin" Content="ADMINISTRADOR" HorizontalAlignment="Left" Margin="513,457,0,0" VerticalAlignment="Top" Width="192" Height="39" FontSize="16" FontWeight="Bold"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="153" Margin="49,24,0,0" VerticalAlignment="Top" Width="152" Stretch="UniformToFill" Source="Images/Sistema-electoral.png"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="110" Margin="331,336,0,0" VerticalAlignment="Top" Width="115" Source="Images/candidato.png" Stretch="UniformToFill"/>
+        <Image x:Name="image2" HorizontalAlignment="Left" Height="129" Margin="91,327,0,0" VerticalAlignment="Top" Width="114" Stretch="UniformToFill" Source="Images/votante.png"/>
+        <Image x:Name="image2_Copy" HorizontalAlignment="Left" Height="139" Margin="550,329,0,0" VerticalAlignment="Top" Width="111" Stretch="UniformToFill" Source="Images/admin.png"/>
     </Grid>
 </Window>

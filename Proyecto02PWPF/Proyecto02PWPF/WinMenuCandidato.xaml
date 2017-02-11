@@ -1,0 +1,16 @@
+﻿<Window x:Name="WinMenuCandidato1" x:Class="WinMenuCandidato"      
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto02PWPF"
+        mc:Ignorable="d"
+        Title="Candidatos" Height="300" Width="300" Icon="Images/check_2.ico">
+    <Grid Background="#FFCEF0EE">
+        <Label x:Name="lblTitulo" Content="BIENVENIDOS" Margin="63,14,52,211" FontFamily="Century Gothic" FontWeight="Bold" FontSize="22"/>
+        <Button x:Name="btnMostrar" Content="Mostrar resultados" Margin="138,119,15,117" FontWeight="Bold"/>
+        <Button x:Name="btnSalir" Content="Salir" Margin="138,167,35,72" FontWeight="Bold"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="17,98,0,0" VerticalAlignment="Top" Width="100" Source="Images/candidato.png"/>
+
+    </Grid>
+</Window>
