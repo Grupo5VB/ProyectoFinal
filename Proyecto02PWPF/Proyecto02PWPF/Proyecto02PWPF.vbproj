@@ -68,6 +68,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="WinLogVotante.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinPapeletasVotos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WinPrincipal.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -75,6 +83,12 @@
     <Compile Include="Application.xaml.vb">
       <DependentUpon>Application.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinLogVotante.xaml.vb">
+      <DependentUpon>WinLogVotante.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinPapeletasVotos.xaml.vb">
+      <DependentUpon>WinPapeletasVotos.xaml</DependentUpon>
     </Compile>
     <Compile Include="WinPrincipal.xaml.vb">
       <DependentUpon>WinPrincipal.xaml</DependentUpon>
@@ -131,6 +145,41 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\admin.png" />
+    <Resource Include="Images\administrator-32825.jpg" />
+    <Resource Include="Images\alcalde1.jpg" />
+    <Resource Include="Images\alcalde2.jpg" />
+    <Resource Include="Images\alcalde3.jpg" />
+    <Resource Include="Images\candidato.png" />
+    <Resource Include="Images\check_2.ico" />
+    <Resource Include="Images\concejal1.jpg" />
+    <Resource Include="Images\concejal2.jpg" />
+    <Resource Include="Images\concejal3.jpg" />
+    <Resource Include="Images\concejal4.jpg" />
+    <Resource Include="Images\DaloBucaram.jpg" />
+    <Resource Include="Images\dignidades.png" />
+    <Resource Include="Images\FondoBandera1.jpg" />
+    <Resource Include="Images\GuillermoLasso.jpg" />
+    <Resource Include="Images\imagen-andres-paez.jpg" />
+    <Resource Include="Images\imagen-cynthia-viteri.jpg" />
+    <Resource Include="Images\imagen-ramiro-aguilar.jpg" />
+    <Resource Include="Images\JorgeGlas.jpg" />
+    <Resource Include="Images\lenin_moreno1.jpg" />
+    <Resource Include="Images\lista10.jpg" />
+    <Resource Include="Images\lista35.png" />
+    <Resource Include="Images\lista6.jpg" />
+    <Resource Include="Images\Lista_21.png" />
+    <Resource Include="Images\MauricioPozo.jpg" />
+    <Resource Include="Images\Sistema-electoral.png" />
+    <Resource Include="Images\usuario.png" />
+    <Resource Include="Images\votante.png" />
+    <Resource Include="Images\votar2.jpg" />
+    <Resource Include="Images\voto.png" />
+    <Resource Include="Images\votoBlanco.jpg" />
+    <Resource Include="Images\votoNulo.jpg" />
+    <Resource Include="Images\X.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

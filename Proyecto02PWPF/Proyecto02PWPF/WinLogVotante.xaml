@@ -1,0 +1,16 @@
+﻿<Window x:Class="WinLogVotante"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto02PWPF"
+        mc:Ignorable="d"
+        Title="Login Votante" Height="232.959" Width="429.508">
+    <Grid Background="#FFCEF0EE">
+        <Label x:Name="label" Content="Ingrese su número de cédula:" Height="30" Margin="192,41,24,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="txtId" Height="30" Margin="192,95,27,0" TextWrapping="Wrap" VerticalAlignment="Top" VerticalContentAlignment="Center" FontSize="14"/>
+        <Image x:Name="imgVotante" HorizontalAlignment="Left" Height="112" Margin="37,43,0,0" VerticalAlignment="Top" Source="Images/votante.png" Width="107"/>
+        <Button x:Name="btnIngresar" Content="Ingresar" Margin="249,152,89,0" VerticalAlignment="Top" Height="30" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
