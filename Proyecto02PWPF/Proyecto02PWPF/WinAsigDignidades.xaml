@@ -1,0 +1,18 @@
+﻿<Window x:Class="WinAsigDignidades"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto02PWPF"
+        mc:Ignorable="d"
+        Title="WinAsigDignidades" Height="225.996" Width="344" Closing="Window_Closing">
+    <Grid Background="#FFCEF0EE" Margin="0,0,0,-4">
+        <Button x:Name="btn_nuevo" Content="Nuevo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="54,152,0,0" FontWeight="Bold" FontSize="10"/>
+        <Button x:Name="btn_regresar" Content="Regresar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="237,152,0,0" FontWeight="Bold" FontSize="10"/>
+        <Button x:Name="btn_guardar" Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="145,152,0,0" FontWeight="Bold" FontSize="10"/>
+        <Label x:Name="label" Content="Nombre de dignidad:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,36,0,0" FontWeight="Bold" FontSize="10"/>
+        <TextBox x:Name="txt_nombredig" HorizontalAlignment="Left" Height="15" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" Margin="213,64,0,0"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="15,10,0,0" VerticalAlignment="Top" Width="100" Source="Images/dignidades.png"/>
+
+    </Grid>
+</Window>

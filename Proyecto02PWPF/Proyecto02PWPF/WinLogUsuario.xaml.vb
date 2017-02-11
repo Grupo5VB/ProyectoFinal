@@ -21,11 +21,11 @@ Public Class WinLogUsuario
             For Each u As DataRow In dsUsuarios.Tables("Usuarios").Rows
                 If tipoUser = "administrador" Then
                     If u("Usuario") = "admin" And passwordAdm.Password = u("Contraseña") Then
-                        'encontrado = True
-                        'Dim winV_Administrador As New WinMenuAdm()
-                        'winV_Administrador.Owner = Me
-                        'winV_Administrador.DataContext = winPrincipal.dbPath
-                        'winV_Administrador.Show()
+                        encontrado = True
+                        Dim winV_Administrador As New WinMenuAdm()
+                        winV_Administrador.Owner = Me
+                        winV_Administrador.DataContext = winPrincipal.dbPath
+                        winV_Administrador.Show()
                         Me.Hide()
                         Exit For
                     Else

@@ -1,0 +1,18 @@
+﻿<Window x:Class="WinMenuAdm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto02PWPF"
+        mc:Ignorable="d"
+        Title="WinMenuAdm" Height="300" Width="300">
+    <Grid Background="#FFCEF0EE">
+        <Label x:Name="lbl_Bienvenido" Content="BIENVENIDOS" HorizontalAlignment="Left" Margin="86,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="btn_asig_dig" Content="Asignar Dignidades" HorizontalAlignment="Left" VerticalAlignment="Top" Width="116" Margin="150,57,0,0" FontWeight="Bold"/>
+        <Button x:Name="btn_asig_cand" Content="Asignar Candidatos" HorizontalAlignment="Left" VerticalAlignment="Top" Width="116" Margin="150,96,0,0" FontWeight="Bold"/>
+        <Button x:Name="btn_salir" Content="Salir" HorizontalAlignment="Left" Margin="105,227,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="121" Margin="16,72,0,0" VerticalAlignment="Top" Width="106" Source="Images/admin.png" Stretch="UniformToFill"/>
+        <Button x:Name="btn_mostrar_result" Content="Mostrar Resultados" HorizontalAlignment="Left" VerticalAlignment="Top" Width="116" Margin="150,133,0,0" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
